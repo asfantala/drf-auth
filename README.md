@@ -8,3 +8,6 @@
 - docker compose up
 ### Tests
 - python manage.py test
+
+
+- http://localhost:8000/api/v1/items 
