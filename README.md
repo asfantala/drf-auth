@@ -1,5 +1,5 @@
-# Django_Docker - LAB - Class 31
-## Project: Django REST Framework & Docker
+# Django_Docker - LAB - Class 32
+## Project:Permissions & Postgresql
 ### Author: Tala Asfan
 ### Setup
 - you need to have docker installed on your machine
@@ -10,4 +10,5 @@
 - python manage.py test
 
 
-- http://localhost:8000/api/v1/items 
+- http://localhost:8000/api/v1/items/
+- http://localhost:8000/api/v1/items/post/

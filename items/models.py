@@ -9,5 +9,11 @@ class Item(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     quantity = models.IntegerField(default=0)
 
+class Post(models.Model):
+    title = models.CharField(max_length=255)
+    desc = models.TextField()
+
+
+
     def __str__(self):
-        return self.user.username
+        return self.title
